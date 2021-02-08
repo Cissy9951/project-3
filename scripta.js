@@ -33,6 +33,8 @@ $(document).ready(function() {
 
     function noDup (data){
         return data.filter((value, index) => data.indexOf(value)===index);
+//return function abc(data.filter(value, index)){
+// return data.indexOf(value) ===index;
 
     };
 
@@ -49,6 +51,7 @@ $(document).ready(function() {
             master = noDup(inRoom);
             console.log(master);
         },
+
         out: function(event, ui){
             $(room).removeClass("highlight")
             let pulled = ui.draggable.attr("id");
