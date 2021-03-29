@@ -74,7 +74,7 @@ $(".submitButton").click(function(){
     let array4 = Maggie.preferences;
     let array5 = Bob.preferences;
     let array6 = Louis.preferences;
-    let array7 = Louis.preferences;
+    let array7 = Jake.preferences;
 
 
 
